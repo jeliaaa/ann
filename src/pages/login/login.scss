@@ -1,0 +1,40 @@
+.login{
+    background-color: #E6A4B4;
+    min-height: 80dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    input[type="date"]{
+        background-color: #137a63;
+        padding: 15px;
+        font-family: "Single Day", sans-serif;
+        color: #ffffff;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+    input::-webkit-calendar-picker-indicator{
+        background-color: #ffffff;
+        padding: 5px;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+    h2{
+        color: #0A1D56;
+        width: 70%;
+        text-align: center;
+        font-family: 'Single Day', sans-serif;
+    }
+    .enter{
+        background-color: #137a63;
+        border: none;
+        padding: 10px 20px;
+        color: white;
+        font-family: 'Single Day', sans-serif;
+        border-radius: 15px;
+    }
+
+}

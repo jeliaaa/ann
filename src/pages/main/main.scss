@@ -1,0 +1,21 @@
+.main {
+    min-height: 80dvh;
+    background: rgb(129, 116, 116);
+    background: linear-gradient(0deg, rgba(129, 116, 116, 1) 0%, rgba(130, 47, 96, 1) 25%, rgba(117, 56, 101, 1) 50%, rgba(161, 65, 134, 1) 75%, rgba(245, 238, 230, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a{
+        button{
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+            background-color: #bf3d57;
+            color: white;
+            border: none;
+            padding: 40px 100px;
+            font-size: 40px;
+            font-family: 'Single Day', sans-serif;
+        }
+    }
+}
